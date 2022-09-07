@@ -1,0 +1,113 @@
+/*configurações globais*/
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat, Helvetica, sans-serif;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-Medium.ttf') format('truetype');
+}
+
+#paleta {
+    color: #F4F5F5 #9CA4A3 #968EA5 #AB4861 #515A6D;
+}
+
+button {
+    font-size: 19px;
+    border-radius: 30px;
+    border: none;
+    padding: 30px;
+}
+
+#calculator {
+    display: flex;
+}
+
+/* display */
+#display {
+    width: 490px;
+    border: 5px solid #9ca4a3;
+    border-radius: 18px;
+    margin: 30px;
+    padding: 0 10px;
+    word-wrap:break-word;
+
+}
+
+#display h1 {
+    color: #515A6D;
+    font-size: 50px;
+}
+
+#cleaningMessage {
+    color: green;
+}
+
+/*teclas superiores*/
+#upper-keys {
+    text-align: center;
+    padding: 30px;
+}
+
+#upper-keys button {
+    color: white;
+    background-color: #968ea5;
+}
+
+#upper-keys button:hover {
+    color: #515A6D;
+    background-color: #f4f5f5;
+}
+
+
+/*teclas inferiores*/
+
+#keyboard {
+    width: 476px;
+    position: fixed;
+    left: 552px;
+}
+
+#bottom-keys {
+    text-align: center;
+}
+
+#bottom-keys button {
+    color: white;
+    background-color: #9CA4A3;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: none;
+    padding: 30px;
+}
+#bottom-keys button:hover {
+    color: #9ca4a3;
+    background-color: #f4f5f5;
+}
+
+#key {
+    width: 30px;
+    height: 30px;
+}
+
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+td #equal {
+    font-weight: 600;
+    background-color: #ab4861;
+    transition: 0.3s;
+    height: 166px;
+}
+
+#equal:hover {
+    background-color: #f4f5f5;
+    transition: 0.2s;
+}
